@@ -3,7 +3,7 @@
 "type": "flogo:trigger",
 "ref": "github.com/hihihbi/fl-ext/trigger/mqtt",
 "version": "0.0.1",
-"title": "Receive MQTT Message",
+"title": "Receive MQTT Message New",
 "author": "hihihbi <hbiisme@yahoo.com>",
 "description": "Simple MQTT Trigger",
 "homepage": "https://github.com/hihihbi/fl-ext/tree/master/trigger/mqtt",
