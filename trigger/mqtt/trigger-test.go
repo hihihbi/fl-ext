@@ -1,4 +1,4 @@
-package mqtt
+package mqtte
 
 import (
 	"encoding/json"
