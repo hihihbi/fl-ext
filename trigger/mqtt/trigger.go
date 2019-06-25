@@ -148,7 +148,7 @@ func (t *MqttTrigger) RunHandler(handler *trigger.Handler, payload string) {
 	if replyData != nil {
 		dataJson, err := json.Marshal(replyData)
 		if err != nil {
-			fmt.Printf(err)
+			fmt.Printf("Unknown error")
 		} else {
 			replyTo := handler.GetStringSetting("topic")
 			if replyTo != "" {
